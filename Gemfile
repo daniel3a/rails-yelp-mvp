@@ -26,6 +26,9 @@ gem 'faker'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'simple_form'
 
+gem 'autoprefixer-rails'
+gem 'font-awesome-sass', '~> 5.6.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
